@@ -14,7 +14,11 @@
 
 <body>
   <div class="product">
-    <img class="img-product" src="images/image-product-mobile.jpg" alt="perfume gabrielle essence">
+    <picture>
+      <source media="(width >= 1024px)"
+      srcset="images/image-product-desktop.jpg">
+      <img class="img-product" src="images/image-product-mobile.jpg" alt="perfume gabrielle essence">
+    </picture>
     <div class="info">
       <p class="items">Perfume</p>
 
